@@ -18,7 +18,7 @@ body {
     color: var(--txt-body);
     font-size: .95rem;
     overflow-x: hidden;
-    background-color: rgba(241, 231, 215, 0.169);
+    background-color: white;
 }
 
 body {
@@ -220,7 +220,7 @@ footer {
 }
 @media only screen and (min-width: 1500px) {
     .home--img {
-        width: 50%!important; 
+        width: 45%!important; 
     }
 
 }
