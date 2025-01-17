@@ -143,7 +143,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
-        width: 40%;
+        width: 50%;
     }
 
     .home--info h1 {
@@ -214,9 +214,21 @@ footer {
         font-weight: 700;
         line-height: 120%;
     }
-    .btn-primary{
+    .file-number .btn-primary{
         background-color: var(--color-text-primary);
     }
+}
+@media only screen and (min-width: 1500px) {
+    .home--img {
+        width: 50%!important; 
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    .home--img {
+        width: 500px; 
+    }
+
 }
 
 @media only screen and (max-width: 436px) {
