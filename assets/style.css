@@ -6,8 +6,7 @@
     --color-text-primary: #212529;
     --color-text-secundary: #495057;
     --color-outline:#CED4DA;
-    --font-lexend: Lexend;
-    --font-roboto: "Roboto", serif;
+    --font-lexend: Lexend; 
 }
 
 html,
@@ -16,8 +15,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    margin: 0 auto;
-    font-family: var(--font-PT-serif);
+    margin: 0 auto; 
     overflow: auto;
     color: var(--txt-body);
     font-size: .95rem;
@@ -57,7 +55,7 @@ body {
 }
 
 .home--info p {
-    font-family: var(--font-roboto);
+    font-family: "Roboto", serif;
     color: var(--Texto-Secundario, #495057);
 }
 
@@ -127,7 +125,7 @@ footer {
         justify-content: center;
         align-items: center;
         color: var(--color-text-primary);
-        font-family:var(--font-roboto);
+        font-family: "Roboto", serif;
     }
 
     section {
@@ -312,7 +310,7 @@ footer {
         color: var(--Color-Blanco, #FFF);
         text-align: center;
         font-feature-settings: 'liga' off, 'calt' off;
-        font-family: var(--font-roboto);
+        font-family: "Roboto", serif;
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 700;
